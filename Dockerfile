@@ -25,7 +25,7 @@ RUN wget https://github.com/novnc/noVNC/archive/refs/heads/master.zip -O /tmp/no
     rm -rf /tmp/novnc.zip /tmp/noVNC-master
 
 
-ENV ISO_URL="https://archive.org/download/windows-10-lite-edition-19h2-x64/Windows%2010%20Lite%20Edition%2019H2%20x64.iso"
+ENV ISO_URL="https://dn790002.ca.archive.org/0/items/win-11x-64-lite/Win11x64-Lite-NEW/Win11x64-Lite.iso"
 
 
 RUN echo '#!/bin/bash\n\
